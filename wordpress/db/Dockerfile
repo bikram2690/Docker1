@@ -1,0 +1,8 @@
+FROM mysql:5.7.25 
+
+ENV MYSQL_VERSION 5.7.25
+ENV MYSQL_ROOT_PASSWORD: Wordpress
+ENV MYSQL_USER: wordpress
+ENV MYSQL_PASSWORD: WordPress
+
+VOLUME mysql_vol:/var/lib/mysql
